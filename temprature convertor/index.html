@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="topic"><i>Temperature Conversion</i></h1><br>
+    <div class="content">
+        <h2 id="subtopic"><b>Enter your temperature in:</b></h2>
+        <div class="rad">
+            <input type="radio" name="" id="" onclick="print1()" class="radbut">&nbsp;fahrenheit
+             &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="" id="" onclick="print2()" class="radbut">&nbsp;celsius 
+            &nbsp; &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="" id="" onclick="print3()" class="radbut">&nbsp;kelvin 
+            &nbsp; &nbsp;&nbsp;&nbsp;<br><br>
+        </div>
+        <div class="cont">
+            <input type="number" name="" id="tem"> <label for="name" id="enter"></label><br><br><br>
+            <button id="but" onclick="temp()"><b>Convert</b> </button>
+        </div>
+        <div class="para">
+            <p id="conversion1"></p>
+            <p id="conversion2"></p>
+        </div>
+    </div>
+</body>
+</html>
